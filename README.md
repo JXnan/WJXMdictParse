@@ -1,7 +1,7 @@
-[![GitHub issues](https://img.shields.io/github/issues/terasum/js-mdict.svg)](https://github.com/JXnan/WJXMdictParse/issues)
-[![GitHub forks](https://img.shields.io/github/forks/terasum/js-mdict.svg)](https://github.com/JXnan/WJXMdictParse/network)
-[![GitHub stars](https://img.shields.io/github/stars/terasum/js-mdict.svg)](https://github.com/JXnan/WJXMdictParse/stargazers)
-[![GitHub license](https://img.shields.io/github/license/terasum/js-mdict.svg)](https://github.com/JXnan/WJXMdictParse/blob/develop/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/JXnan/WJXMdictParse.svg)](https://github.com/JXnan/WJXMdictParse/issues)
+[![GitHub forks](https://img.shields.io/github/forks/JXnan/WJXMdictParse.svg)](https://github.com/JXnan/WJXMdictParse/network)
+[![GitHub stars](https://img.shields.io/github/stars/JXnan/WJXMdictParse.svg)](https://github.com/JXnan/WJXMdictParse/stargazers)
+[![GitHub license](https://img.shields.io/github/license/JXnan/WJXMdictParse.svg)](https://github.com/JXnan/WJXMdictParse/LICENSE)
 
 mdict (\*.mdd \*.mdx) file reader based on [terasum/js-mdict](https://github.com/terasum/js-mdict) .
 
