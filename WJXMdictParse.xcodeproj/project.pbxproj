@@ -14,6 +14,27 @@
 		EB851B0A2DDF0AD7005DF93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB851B092DDF0AD7005DF93C /* Assets.xcassets */; };
 		EB851B0D2DDF0AD7005DF93C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EB851B0C2DDF0AD7005DF93C /* Base */; };
 		EB851B102DDF0AD7005DF93C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B0F2DDF0AD7005DF93C /* main.m */; };
+		EB851B762DDF0E0E005DF93C /* minilzo.c in Sources */ = {isa = PBXBuildFile; fileRef = EB851B522DDF0E0E005DF93C /* minilzo.c */; };
+		EB851B772DDF0E0E005DF93C /* NSData+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B562DDF0E0E005DF93C /* NSData+Utils.m */; };
+		EB851B782DDF0E0E005DF93C /* NSString+Mdict.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B582DDF0E0E005DF93C /* NSString+Mdict.m */; };
+		EB851B792DDF0E0E005DF93C /* RIPEMD128.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B5A2DDF0E0E005DF93C /* RIPEMD128.m */; };
+		EB851B7A2DDF0E0E005DF93C /* WJXFileScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B5C2DDF0E0E005DF93C /* WJXFileScanner.m */; };
+		EB851B7B2DDF0E0E005DF93C /* WJXFuzzyWord.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B5E2DDF0E0E005DF93C /* WJXFuzzyWord.m */; };
+		EB851B7C2DDF0E0E005DF93C /* WJXKeyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B602DDF0E0E005DF93C /* WJXKeyHeader.m */; };
+		EB851B7D2DDF0E0E005DF93C /* WJXKeyInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B622DDF0E0E005DF93C /* WJXKeyInfoItem.m */; };
+		EB851B7E2DDF0E0E005DF93C /* WJXKeyWordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B642DDF0E0E005DF93C /* WJXKeyWordItem.m */; };
+		EB851B7F2DDF0E0E005DF93C /* WJXMdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B662DDF0E0E005DF93C /* WJXMdd.m */; };
+		EB851B802DDF0E0E005DF93C /* WJXMdict.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B682DDF0E0E005DF93C /* WJXMdict.m */; };
+		EB851B812DDF0E0E005DF93C /* WJXMdictBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B6A2DDF0E0E005DF93C /* WJXMdictBase.m */; };
+		EB851B822DDF0E0E005DF93C /* WJXMdictMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B6C2DDF0E0E005DF93C /* WJXMdictMeta.m */; };
+		EB851B832DDF0E0E005DF93C /* WJXMdictOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B6E2DDF0E0E005DF93C /* WJXMdictOptions.m */; };
+		EB851B842DDF0E0E005DF93C /* WJXMdx.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B702DDF0E0E005DF93C /* WJXMdx.m */; };
+		EB851B852DDF0E0E005DF93C /* WJXRecordHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B722DDF0E0E005DF93C /* WJXRecordHeader.m */; };
+		EB851B862DDF0E0E005DF93C /* WJXRecordInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB851B742DDF0E0E005DF93C /* WJXRecordInfo.m */; };
+		EB851B8A2DDF0EDC005DF93C /* dict.css in Resources */ = {isa = PBXBuildFile; fileRef = EB851B882DDF0EDA005DF93C /* dict.css */; };
+		EB851B8B2DDF0EDC005DF93C /* dict.mdx in Resources */ = {isa = PBXBuildFile; fileRef = EB851B892DDF0EDC005DF93C /* dict.mdx */; };
+		EB851B922DDF16D7005DF93C /* Webster.mdx in Resources */ = {isa = PBXBuildFile; fileRef = EB851B902DDF16D7005DF93C /* Webster.mdx */; };
+		EB851B932DDF16D7005DF93C /* Webster.mdd in Resources */ = {isa = PBXBuildFile; fileRef = EB851B912DDF16D7005DF93C /* Webster.mdd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +50,47 @@
 		EB851B0C2DDF0AD7005DF93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB851B0E2DDF0AD7005DF93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB851B0F2DDF0AD7005DF93C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB851B502DDF0E0E005DF93C /* lzoconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzoconf.h; sourceTree = "<group>"; };
+		EB851B512DDF0E0E005DF93C /* lzodefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzodefs.h; sourceTree = "<group>"; };
+		EB851B522DDF0E0E005DF93C /* minilzo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minilzo.c; sourceTree = "<group>"; };
+		EB851B532DDF0E0E005DF93C /* minilzo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minilzo.h; sourceTree = "<group>"; };
+		EB851B552DDF0E0E005DF93C /* NSData+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Utils.h"; sourceTree = "<group>"; };
+		EB851B562DDF0E0E005DF93C /* NSData+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Utils.m"; sourceTree = "<group>"; };
+		EB851B572DDF0E0E005DF93C /* NSString+Mdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Mdict.h"; sourceTree = "<group>"; };
+		EB851B582DDF0E0E005DF93C /* NSString+Mdict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Mdict.m"; sourceTree = "<group>"; };
+		EB851B592DDF0E0E005DF93C /* RIPEMD128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIPEMD128.h; sourceTree = "<group>"; };
+		EB851B5A2DDF0E0E005DF93C /* RIPEMD128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIPEMD128.m; sourceTree = "<group>"; };
+		EB851B5B2DDF0E0E005DF93C /* WJXFileScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXFileScanner.h; sourceTree = "<group>"; };
+		EB851B5C2DDF0E0E005DF93C /* WJXFileScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXFileScanner.m; sourceTree = "<group>"; };
+		EB851B5D2DDF0E0E005DF93C /* WJXFuzzyWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXFuzzyWord.h; sourceTree = "<group>"; };
+		EB851B5E2DDF0E0E005DF93C /* WJXFuzzyWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXFuzzyWord.m; sourceTree = "<group>"; };
+		EB851B5F2DDF0E0E005DF93C /* WJXKeyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXKeyHeader.h; sourceTree = "<group>"; };
+		EB851B602DDF0E0E005DF93C /* WJXKeyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXKeyHeader.m; sourceTree = "<group>"; };
+		EB851B612DDF0E0E005DF93C /* WJXKeyInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXKeyInfoItem.h; sourceTree = "<group>"; };
+		EB851B622DDF0E0E005DF93C /* WJXKeyInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXKeyInfoItem.m; sourceTree = "<group>"; };
+		EB851B632DDF0E0E005DF93C /* WJXKeyWordItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXKeyWordItem.h; sourceTree = "<group>"; };
+		EB851B642DDF0E0E005DF93C /* WJXKeyWordItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXKeyWordItem.m; sourceTree = "<group>"; };
+		EB851B652DDF0E0E005DF93C /* WJXMdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXMdd.h; sourceTree = "<group>"; };
+		EB851B662DDF0E0E005DF93C /* WJXMdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXMdd.m; sourceTree = "<group>"; };
+		EB851B672DDF0E0E005DF93C /* WJXMdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXMdict.h; sourceTree = "<group>"; };
+		EB851B682DDF0E0E005DF93C /* WJXMdict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXMdict.m; sourceTree = "<group>"; };
+		EB851B692DDF0E0E005DF93C /* WJXMdictBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXMdictBase.h; sourceTree = "<group>"; };
+		EB851B6A2DDF0E0E005DF93C /* WJXMdictBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXMdictBase.m; sourceTree = "<group>"; };
+		EB851B6B2DDF0E0E005DF93C /* WJXMdictMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXMdictMeta.h; sourceTree = "<group>"; };
+		EB851B6C2DDF0E0E005DF93C /* WJXMdictMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXMdictMeta.m; sourceTree = "<group>"; };
+		EB851B6D2DDF0E0E005DF93C /* WJXMdictOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXMdictOptions.h; sourceTree = "<group>"; };
+		EB851B6E2DDF0E0E005DF93C /* WJXMdictOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXMdictOptions.m; sourceTree = "<group>"; };
+		EB851B6F2DDF0E0E005DF93C /* WJXMdx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXMdx.h; sourceTree = "<group>"; };
+		EB851B702DDF0E0E005DF93C /* WJXMdx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXMdx.m; sourceTree = "<group>"; };
+		EB851B712DDF0E0E005DF93C /* WJXRecordHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXRecordHeader.h; sourceTree = "<group>"; };
+		EB851B722DDF0E0E005DF93C /* WJXRecordHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXRecordHeader.m; sourceTree = "<group>"; };
+		EB851B732DDF0E0E005DF93C /* WJXRecordInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXRecordInfo.h; sourceTree = "<group>"; };
+		EB851B742DDF0E0E005DF93C /* WJXRecordInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXRecordInfo.m; sourceTree = "<group>"; };
+		EB851B872DDF0E50005DF93C /* WJXMdicParse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJXMdicParse.h; sourceTree = "<group>"; };
+		EB851B882DDF0EDA005DF93C /* dict.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dict.css; sourceTree = "<group>"; };
+		EB851B892DDF0EDC005DF93C /* dict.mdx */ = {isa = PBXFileReference; lastKnownFileType = file; path = dict.mdx; sourceTree = "<group>"; };
+		EB851B902DDF16D7005DF93C /* Webster.mdx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Webster.mdx; sourceTree = "<group>"; };
+		EB851B912DDF16D7005DF93C /* Webster.mdd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Webster.mdd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +123,11 @@
 		EB851AFC2DDF0AD5005DF93C /* WJXMdictParse */ = {
 			isa = PBXGroup;
 			children = (
+				EB851B912DDF16D7005DF93C /* Webster.mdd */,
+				EB851B902DDF16D7005DF93C /* Webster.mdx */,
+				EB851B752DDF0E0E005DF93C /* MdictParse */,
+				EB851B882DDF0EDA005DF93C /* dict.css */,
+				EB851B892DDF0EDC005DF93C /* dict.mdx */,
 				EB851AFD2DDF0AD5005DF93C /* AppDelegate.h */,
 				EB851AFE2DDF0AD5005DF93C /* AppDelegate.m */,
 				EB851B002DDF0AD5005DF93C /* SceneDelegate.h */,
@@ -74,6 +141,58 @@
 				EB851B0F2DDF0AD7005DF93C /* main.m */,
 			);
 			path = WJXMdictParse;
+			sourceTree = "<group>";
+		};
+		EB851B542DDF0E0E005DF93C /* lzo */ = {
+			isa = PBXGroup;
+			children = (
+				EB851B502DDF0E0E005DF93C /* lzoconf.h */,
+				EB851B512DDF0E0E005DF93C /* lzodefs.h */,
+				EB851B522DDF0E0E005DF93C /* minilzo.c */,
+				EB851B532DDF0E0E005DF93C /* minilzo.h */,
+			);
+			path = lzo;
+			sourceTree = "<group>";
+		};
+		EB851B752DDF0E0E005DF93C /* MdictParse */ = {
+			isa = PBXGroup;
+			children = (
+				EB851B542DDF0E0E005DF93C /* lzo */,
+				EB851B552DDF0E0E005DF93C /* NSData+Utils.h */,
+				EB851B562DDF0E0E005DF93C /* NSData+Utils.m */,
+				EB851B572DDF0E0E005DF93C /* NSString+Mdict.h */,
+				EB851B582DDF0E0E005DF93C /* NSString+Mdict.m */,
+				EB851B592DDF0E0E005DF93C /* RIPEMD128.h */,
+				EB851B5A2DDF0E0E005DF93C /* RIPEMD128.m */,
+				EB851B5B2DDF0E0E005DF93C /* WJXFileScanner.h */,
+				EB851B5C2DDF0E0E005DF93C /* WJXFileScanner.m */,
+				EB851B5D2DDF0E0E005DF93C /* WJXFuzzyWord.h */,
+				EB851B5E2DDF0E0E005DF93C /* WJXFuzzyWord.m */,
+				EB851B5F2DDF0E0E005DF93C /* WJXKeyHeader.h */,
+				EB851B602DDF0E0E005DF93C /* WJXKeyHeader.m */,
+				EB851B612DDF0E0E005DF93C /* WJXKeyInfoItem.h */,
+				EB851B622DDF0E0E005DF93C /* WJXKeyInfoItem.m */,
+				EB851B632DDF0E0E005DF93C /* WJXKeyWordItem.h */,
+				EB851B642DDF0E0E005DF93C /* WJXKeyWordItem.m */,
+				EB851B652DDF0E0E005DF93C /* WJXMdd.h */,
+				EB851B662DDF0E0E005DF93C /* WJXMdd.m */,
+				EB851B672DDF0E0E005DF93C /* WJXMdict.h */,
+				EB851B682DDF0E0E005DF93C /* WJXMdict.m */,
+				EB851B692DDF0E0E005DF93C /* WJXMdictBase.h */,
+				EB851B6A2DDF0E0E005DF93C /* WJXMdictBase.m */,
+				EB851B6B2DDF0E0E005DF93C /* WJXMdictMeta.h */,
+				EB851B6C2DDF0E0E005DF93C /* WJXMdictMeta.m */,
+				EB851B6D2DDF0E0E005DF93C /* WJXMdictOptions.h */,
+				EB851B6E2DDF0E0E005DF93C /* WJXMdictOptions.m */,
+				EB851B6F2DDF0E0E005DF93C /* WJXMdx.h */,
+				EB851B702DDF0E0E005DF93C /* WJXMdx.m */,
+				EB851B712DDF0E0E005DF93C /* WJXRecordHeader.h */,
+				EB851B722DDF0E0E005DF93C /* WJXRecordHeader.m */,
+				EB851B732DDF0E0E005DF93C /* WJXRecordInfo.h */,
+				EB851B742DDF0E0E005DF93C /* WJXRecordInfo.m */,
+				EB851B872DDF0E50005DF93C /* WJXMdicParse.h */,
+			);
+			path = MdictParse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB851B0A2DDF0AD7005DF93C /* Assets.xcassets in Resources */,
+				EB851B8B2DDF0EDC005DF93C /* dict.mdx in Resources */,
 				EB851B0D2DDF0AD7005DF93C /* Base in Resources */,
 				EB851B082DDF0AD5005DF93C /* Base in Resources */,
+				EB851B932DDF16D7005DF93C /* Webster.mdd in Resources */,
+				EB851B922DDF16D7005DF93C /* Webster.mdx in Resources */,
+				EB851B8A2DDF0EDC005DF93C /* dict.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +269,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB851B772DDF0E0E005DF93C /* NSData+Utils.m in Sources */,
+				EB851B852DDF0E0E005DF93C /* WJXRecordHeader.m in Sources */,
 				EB851B052DDF0AD5005DF93C /* ViewController.m in Sources */,
+				EB851B7C2DDF0E0E005DF93C /* WJXKeyHeader.m in Sources */,
+				EB851B792DDF0E0E005DF93C /* RIPEMD128.m in Sources */,
 				EB851AFF2DDF0AD5005DF93C /* AppDelegate.m in Sources */,
+				EB851B7B2DDF0E0E005DF93C /* WJXFuzzyWord.m in Sources */,
+				EB851B822DDF0E0E005DF93C /* WJXMdictMeta.m in Sources */,
+				EB851B782DDF0E0E005DF93C /* NSString+Mdict.m in Sources */,
 				EB851B102DDF0AD7005DF93C /* main.m in Sources */,
+				EB851B7E2DDF0E0E005DF93C /* WJXKeyWordItem.m in Sources */,
+				EB851B7D2DDF0E0E005DF93C /* WJXKeyInfoItem.m in Sources */,
+				EB851B762DDF0E0E005DF93C /* minilzo.c in Sources */,
+				EB851B7A2DDF0E0E005DF93C /* WJXFileScanner.m in Sources */,
 				EB851B022DDF0AD5005DF93C /* SceneDelegate.m in Sources */,
+				EB851B7F2DDF0E0E005DF93C /* WJXMdd.m in Sources */,
+				EB851B812DDF0E0E005DF93C /* WJXMdictBase.m in Sources */,
+				EB851B832DDF0E0E005DF93C /* WJXMdictOptions.m in Sources */,
+				EB851B802DDF0E0E005DF93C /* WJXMdict.m in Sources */,
+				EB851B862DDF0E0E005DF93C /* WJXRecordInfo.m in Sources */,
+				EB851B842DDF0E0E005DF93C /* WJXMdx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
