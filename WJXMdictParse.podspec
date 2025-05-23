@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
                       Supports various dictionary formats and provides easy-to-use APIs for dictionary parsing.
                       DESC
                       
-  s.homepage         = 'https://github.com/YOURUSERNAME/WJXMdictParse'
+  s.homepage         = 'https://github.com/JXnan/WJXMdictParse'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Your Name' => 'your.email@example.com' }
-  s.source           = { :git => 'https://github.com/YOURUSERNAME/WJXMdictParse.git', :tag => s.version.to_s }
+  s.author           = { 'wang jiaxin' => 'wangjiaxin0813@gmail.com' }
+  s.source           = { :git => 'https://github.com/JXnan/WJXMdictParse.git', :tag => s.version.to_s }
   
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   
   s.source_files = 'WJXMdictParse/MdictParse/**/*'
   s.public_header_files = 'WJXMdictParse/MdictParse/*.h'
